@@ -1,0 +1,15 @@
+[package]
+name = "sidica"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+atoi = "2.0"
+bytes = "1"
+dashmap = { version = "6.0", features = ["inline"] }
+parking_lot = { version = "0.12", features = ["deadlock_detection", "hardware-lock-elision"] }
+tokio = { version = "1", features = ["full"] }
+thiserror = "1.0"
+log = "0.4"
+nohash-hasher = "0.2.0"
